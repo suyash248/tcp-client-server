@@ -1,3 +1,5 @@
+# NOTE - This server can accept only single connection, it can be extended to 
+# support multiple clients/connections using threads.
 import socket
 
 host = 'localhost'        # Symbolic name meaning all available interfaces
