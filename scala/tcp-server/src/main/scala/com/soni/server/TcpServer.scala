@@ -25,7 +25,7 @@ class TcpServer(remote: InetSocketAddress) extends Actor {
     case CommandFailed(_: Bind) ⇒ context stop self
 
     case c @ Connected(remote, local) =>
-      println(s"Client connected!")
+      println(s"Client connected - Remote(Client): ${remote.getAddress} Local(Server): ${local.getAddress}")
       val handler = context.actorOf(Props[SimplisticHandler])
       val connection = sender()
       connection ! Register(handler)

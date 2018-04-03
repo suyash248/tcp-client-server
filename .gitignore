@@ -1,4 +1,7 @@
 .idea/
 *.class
 target/
-
+*.cache-main
+*.settings
+*.classpath
+*.project

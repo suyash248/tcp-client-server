@@ -8,7 +8,7 @@ import com.soni.server.TcpServer
 
 object Main {
   def main(args: Array[String]): Unit = {
-    val host = "localhost"
+    val host = "0.0.0.0"
     val port = 9900
     println(s"Server started! listening to ${host}:${port}")
 
