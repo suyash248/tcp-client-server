@@ -69,7 +69,7 @@ Project can be run either by using an IDE(`eclipse`, `IntelliJ`) or via `sbt` co
 ### Requirements
  - Python3
 
-> Note: `server.py` creates single thread server and can handle single connection at a time. Although it can be easily be extended to support multiple connections.
+> Note: `server.py` creates single threaded server and can handle single connection at a time. Although it can be easily be extended to support multiple connections.
 
 ### How to run?
 
