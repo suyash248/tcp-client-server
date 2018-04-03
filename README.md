@@ -26,6 +26,8 @@ Project can be run either by using an IDE(`eclipse`, `IntelliJ`) or via `sbt` co
   2. Import `<project-dir>/scala/tcp-client` project to IDE. 
   3. Run `Main.scala`.
 
+> Note: Default host is `0.0.0.0` and port is `9900`. This configuration can be changed.
+
 #### Using sbt console -
 
 - ***Server*** 
@@ -87,7 +89,8 @@ Project can be run either by using an IDE(`eclipse`, `IntelliJ`) or via `sbt` co
   $ python3 <project-dir>/python3/client.py
   ```
   
-  
+  > Note: Default host is `0.0.0.0` and port is `9900`. This configuration can be changed.
+
 ***
   
 ## NodeJS
