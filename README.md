@@ -87,12 +87,13 @@ Project can be run either by using an IDE(`eclipse`, `IntelliJ`) or via `sbt` co
   $ python3 <project-dir>/python3/client.py
   ```
   
-  ***
   
-  ## NodeJS
+***
   
-  ### Server
+## NodeJS
+
+### Server
   
-  `node tcp-server.js`
+`node tcp-server.js`
   
-  The server will run on port 5000 with 0.0.0.0 as host
+The server will run on port 5000 with 0.0.0.0 as host
