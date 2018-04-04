@@ -96,11 +96,17 @@ Project can be run either by using an IDE(`eclipse`, `IntelliJ`) or via `sbt` co
   
 ## NodeJS
 
-- ***Server*** 
- Run server as -
+### Requirements
+ - node
+ - npm
+ 
+### How to run?
 
- ```sh
- node tcp-server.js
- ```
+ - ***Server*** 
+   Run server as -
 
- > Note: Default host is `0.0.0.0` and port is `5000`. This configuration can be changed.
+   ```sh
+   node tcp-server.js
+   ```
+
+   > Note: Default host is `0.0.0.0` and port is `5000`. This configuration can be changed.
