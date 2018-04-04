@@ -96,8 +96,11 @@ Project can be run either by using an IDE(`eclipse`, `IntelliJ`) or via `sbt` co
   
 ## NodeJS
 
-### Server
+- ***Server*** 
+Run server as -
   
-`node tcp-server.js`
+```sh
+node tcp-server.js
+```
   
-The server will run on port 5000 with 0.0.0.0 as host
+The server will run on port `5000` with `0.0.0.0` as host
